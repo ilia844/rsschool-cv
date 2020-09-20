@@ -46,7 +46,7 @@ body {
 
 main {
     padding: 50px 0;
-    background-image: url("/assets/main-ligth-back.jpg");
+    background-image: url("assets/main-ligth-back.jpg");
     background-size: 500px;
     background-repeat: repeat;
 }
