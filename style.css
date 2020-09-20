@@ -2,8 +2,96 @@
     --max-content-width: 1024px;
 }
 
-.main-content {
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    font-size: 1.2em;
+    color: royalblue;
+}
+
+b {
+    font-weight: 700;
+}
+
+i {
+    font-style: italic;
+}
+
+pre {
+    font-family: monospace;
+    width: 90%;
+    padding: 0;
+    margin: 10px 5%;
+    overflow: auto;
+    overflow-x: scroll;
+    font-size: 12px;
+    line-height: 1.5;
+    background: #efefef;
+    border: 1px solid #777;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-conteiner {
     max-width: var(--max-content-width);
     width: 100%;
     margin: auto;
+}
+
+main {
+    padding: 50px 0;
+    background-image: url("/assets/main-ligth-back.jpg");
+    background-size: 500px;
+    background-repeat: repeat;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 10px
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 10px;
+    padding: 5px;
+}
+
+article h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 15px 10px;
+}
+
+article ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin: 16px 0;
+}
+
+article li {
+    line-height: 2;
+}
+
+article p {
+    line-height: 1.75;
+    text-shadow: 0 0 15px rebeccapurple;
+}
+
+.contact-info span {
+    font-size: 2rem;
+}
+
+.my_photo {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
